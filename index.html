@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cass - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+          
+        <div class="profile_name">
+          Cass
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+
+        <div class="topdiv">
+            <a class="topmenu" href="#recommendation">Recommendation</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+  
+          </div>
+
+          <div class="topdiv">
+            <a class="topmenu" href="#projects">Projects</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+  
+          </div>
+
+          <div class="topdiv">
+            <a class="topmenu" href="#skills">Skills</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+  
+          </div>
+
+          
+
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+         
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://static.turbosquid.com/Preview/2014/05/16__17_17_11/tgrl4_render01.jpg31602ba7-866e-485e-b8c4-95a9044e1249Original.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Cass! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            I am an Engineer with 5 years of experience in the Oil and Gas Industry.
+            I have worked on projects deployed on IBM Cloud. 
+            I am an avid user of IBM Watson Services such as Data Analytics which I use in making quick desicisions.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://logospng.org/download/react/logo-react-1024.png"/>
+            <h6>React</h6>
+            <p>3 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png"/>
+            <h6>Node.js</h6>
+            <p>2 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://logodownload.org/wp-content/uploads/2017/04/css-3-logo.png"/>
+            <h6>CSS</h6>
+            <p>2 years experience</p>
+          </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects-card" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Data Analytics</h3>
+            <ul>
+              <li>Developed a secured data analytics dashboard integrated with chatbot for an oil and gas  client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Recommendation Analyzer</h3>
+            <ul>
+              <li>Developed and deployed a recommendation analyzer tool for clients in the Oil and Gas Industry using IBM NLU</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3> Database Creation</h3>
+            <ul>
+              <li>Created a multi-user database for easy retrieval of data as well as data Entry for the Oil and Gas industry</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Cass is an Engineer who is works very with the team. 
+          She combines a natural ability and eagerness to learn.
+          She has proved herself to be a hard worker and a talented researcher.
+ 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am quite Impressed by Cass ability to complete all work assigned to her.
+          She demonstrates the character and qualities you look for in an employee.
+          She has shown excellence in her knowledge and skills and goes the extra mile to get the job done.
+.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Cass is a pleasure to work with and she contributed positively to our organization. 
+          She's got a great attitude and a curious mind.
+          With her relentless motivation and knowledge, she will be an asset to any organization.
+
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for Leaving a Recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
